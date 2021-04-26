@@ -7,8 +7,8 @@ class Llama:
     def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = "Llama"
-        self.species = "Llama"
+        self.name = name
+        self.species = species
         self.date_added = date.today()
 		self.walking = True
 
@@ -17,8 +17,8 @@ class Donkey:
     def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = "Donkey"
-        self.species = "Donkey"
+        self.name = name
+        self.species = species
         self.date_added = date.today()
 		self.walking = True
 
@@ -27,8 +27,8 @@ class Cow:
     def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = "Cow"
-        self.species = "Cow"
+        self.name = name
+        self.species = species
         self.date_added = date.today()
 		self.walking = True
 
@@ -37,8 +37,8 @@ class Duck:
     def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = "Duck"
-        self.species = "Duck"
+        self.name = name
+        self.species = species
         self.date_added = date.today()
 		self.walking = True
 
@@ -47,8 +47,8 @@ class Piggy:
     def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = "Piggy"
-        self.species = "Piggy"
+        self.name = name
+        self.species = species
         self.date_added = date.today()
 		self.walking = True
 
@@ -57,8 +57,8 @@ class Fish:
     def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = "Fish"
-        self.species = "Fish"
+        self.name = name
+        self.species = species
         self.date_added = date.today()
 		self.swimming = True
 
@@ -67,8 +67,8 @@ class Eel:
     def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = "Eel"
-        self.species = "Eel"
+        self.name = name
+        self.species = species
         self.date_added = date.today()
 		self.swimming = True
 
@@ -77,8 +77,8 @@ class Croc:
     def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = "Croc"
-        self.species = "Croc"
+        self.name = name
+        self.species = species
         self.date_added = date.today()
 		self.swimming = True
 
@@ -87,8 +87,8 @@ class Aligator:
     def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = "Aligator"
-        self.species = "Aligator"
+        self.name = name
+        self.species = species
         self.date_added = date.today()
 		self.swimming = True
 
@@ -97,8 +97,8 @@ class Shark:
     def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = "Shark"
-        self.species = "Shark"
+        self.name = name
+        self.species = species
         self.date_added = date.today()
 		self.swimming = True
 
@@ -107,8 +107,8 @@ class Snake:
     def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = "Snake"
-        self.species = "Snake"
+        self.name = name
+        self.species = species
         self.date_added = date.today()
 		self.slithering = True
 
@@ -117,8 +117,8 @@ class Anaconda:
     def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = "Anaconda"
-        self.species = "Anaconda"
+        self.name = name
+        self.species = species
         self.date_added = date.today()
 		self.slithering = True
 
@@ -127,8 +127,8 @@ class Worm:
     def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = "Worm"
-        self.species = "Worm"
+        self.name = name
+        self.species = species
         self.date_added = date.today()
 		self.slithering = True
 
@@ -137,8 +137,8 @@ class Slime:
     def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = "Slime"
-        self.species = "Slime"
+        self.name = name
+        self.species = species
         self.date_added = date.today()
 		self.slithering = True
 
@@ -147,8 +147,8 @@ class Tapeworm:
     def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = "Tapeworm"
-        self.species = "Tapeworm"
+        self.name = name
+        self.species = species
         self.date_added = date.today()
 		self.slithering = True
 
