@@ -4,7 +4,7 @@ from datetime import date
 # petting are
 class Llama:
 
-    def __init__(self):
+    def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
         self.name = "Llama"
@@ -14,7 +14,7 @@ class Llama:
 
 class Donkey:
 
-    def __init__(self):
+    def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
         self.name = "Donkey"
@@ -24,7 +24,7 @@ class Donkey:
 
 class Cow:
 
-    def __init__(self):
+    def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
         self.name = "Cow"
@@ -34,7 +34,7 @@ class Cow:
 
 class Duck:
 
-    def __init__(self):
+    def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
         self.name = "Duck"
@@ -44,7 +44,7 @@ class Duck:
 
 class Piggy:
 
-    def __init__(self):
+    def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
         self.name = "Piggy"
@@ -54,7 +54,7 @@ class Piggy:
 
 class Fish:
 
-    def __init__(self):
+    def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
         self.name = "Fish"
@@ -64,7 +64,7 @@ class Fish:
 
 class Eel:
 
-    def __init__(self):
+    def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
         self.name = "Eel"
@@ -74,7 +74,7 @@ class Eel:
 
 class Croc:
 
-    def __init__(self):
+    def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
         self.name = "Croc"
@@ -84,7 +84,7 @@ class Croc:
 
 class Aligator:
 
-    def __init__(self):
+    def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
         self.name = "Aligator"
@@ -94,7 +94,7 @@ class Aligator:
 
 class Shark:
 
-    def __init__(self):
+    def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
         self.name = "Shark"
@@ -104,7 +104,7 @@ class Shark:
 
 class Snake:
 
-    def __init__(self):
+    def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
         self.name = "Snake"
@@ -114,7 +114,7 @@ class Snake:
 
 class Anaconda:
 
-    def __init__(self):
+    def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
         self.name = "Anaconda"
@@ -124,7 +124,7 @@ class Anaconda:
 
 class Worm:
 
-    def __init__(self):
+    def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
         self.name = "Worm"
@@ -134,7 +134,7 @@ class Worm:
 
 class Slime:
 
-    def __init__(self):
+    def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
         self.name = "Slime"
@@ -144,7 +144,7 @@ class Slime:
 
 class Tapeworm:
 
-    def __init__(self):
+    def __init(self, name, species):
         # Establish the properties of each animal
         # with a default value
         self.name = "Tapeworm"
@@ -152,17 +152,17 @@ class Tapeworm:
         self.date_added = date.today()
 		self.slithering = True
 
-llama = Llama()
-cow = Cow()
-duck = Duck()
-piggy = Piggy()
-fish = Fish()
-eel = Eel()
-croc = Croc()
-aligator = Aligator()
-shark = Shark()
-snak = Snake()
-anaconda = Anaconda()
-worm = Worm()
-slime = Slime()
-tapeworm = Tapeworm()
+llama = Llama("bob", "llamabama")
+cow = Cow("mary", "moocow")
+duck = Duck("qucky", "quackers")
+piggy = Piggy("dinner", "pig")
+fish = Fish("ickyface", "fish")
+eel = Eel("eely peely", "eel")
+croc = Croc("doc", "croc")
+aligator = Aligator("gator", "aligator")
+shark = Shark("mark", "shark")
+snake = Snake("jake", "snake")
+anaconda = Anaconda("ronda", "anacoda")
+worm = Worm("Orm", "worm")
+slime = Slime("Lime", "slime")
+tapeworm = Tapeworm("Pap", "tapeworme")
